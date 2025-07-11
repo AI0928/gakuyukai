@@ -1,0 +1,43 @@
+.project-card {
+
+  background: #e0e0e0;
+  border-radius: 16px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* サムネイル部分（上部の四角） */
+.project-card::before {
+  content: "";
+  display: block;
+  width: 92%;
+  height: 80%;
+  margin: 8px auto 0 auto;
+  background: #b3b3b3;
+  border-radius: 14px;
+}
+
+
+.project-title {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  /* position: absolute;
+  bottom: 0;
+  left: 0; */
+  position: static;
+  margin-top: auto;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+}

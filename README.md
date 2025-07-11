@@ -1,1 +1,3 @@
 # gakuyukai
+
+nvm use node
